@@ -2,7 +2,7 @@
 body {
   background-color: white;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  color: white;
+  color: black;
   text-shadow: 10px 10px 10px green;
   text-align: left;
   font-size: 18px;
@@ -19,14 +19,16 @@ body {
   margin: 20px 30px 35px;
   }
 }
- h1 {
+h1 {
 color: white;
    text-align: center;
    line-height: 3
-      }
+   font-size: 200px;
+   margin-bottom: 20px;
+}
   h2 {
       color: white;
-    text-align: left;
+    text-align: center;
     line-height: 3
   }
   h3 {
@@ -36,7 +38,7 @@ color: white;
   }
   a:hover{
     color: white;
-    text decoration: underline;
+    text decoration: none;
   }
   .daht {
     color: green;
@@ -47,6 +49,7 @@ p {
   margin-right: 30px;
   margin-left 0;
   line-height: 2;
+  background: lightgreen;
 }
 * {
   margin: 0;
@@ -69,6 +72,7 @@ div {
   background-image: url(images/banner.jpg);
   background-size: cover;
   background-position: center;
+  margin-top: 20px;
 
 }
 .container {
@@ -92,4 +96,27 @@ footer {
 }
 section {
   line-height: 20;
+}
+.float-image {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.column {
+  float:left
+}
+.column-1{
+  width: 30%;
+}
+.column-2{
+  width: 30%;
+}
+.column-3{
+width: 30%;
+}
+.banner3 {
+  height: 400px;
+  background-image: url(images/cedarclothes.jpg);
+  background-size: cover;
+  background-position: center;
 }
