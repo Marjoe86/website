@@ -93,6 +93,7 @@ footer {
   text-align: right;
   font-size: 15px;
   font-weight: bold;
+  color:white;
 }
 section {
   line-height: 20;
@@ -119,4 +120,8 @@ width: 30%;
   background-image: url(images/cedarclothes.jpg);
   background-size: cover;
   background-position: center;
+}
+ul{
+  color:green;
+  width: 250px;
 }
